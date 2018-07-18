@@ -1,9 +1,9 @@
-k = []
+l = []
 _ = input()
 for i, j in enumerate(map(int,raw_input().split(" "))):
     if j == i:
-        k.append(i)
-if len(k) > 0:
-    print " ".join(map(str,k))
+        l.append(i)
+if len(l) > 0:
+    print " ".join(map(str,l))
 else:
     print -1
